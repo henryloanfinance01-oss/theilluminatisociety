@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#170d14">
+    <meta name="description" content="A space for curiosity, clear thinking, and the shared work of building a brighter future.">
+    <title>The Lantern Society — A brighter perspective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="The Lantern Society home">
+        <svg class="brand-mark" viewBox="0 0 48 48" role="img" aria-label="">
+          <path d="M24 3 44 40H4L24 3Z" />
+          <circle cx="24" cy="23" r="8" />
+          <path d="m24 17 5 12h-10l5-12Z" />
+          <circle class="brand-dot" cx="24" cy="23" r="2" />
+        </svg>
+        <span>THE LANTERN <span class="brand-light">SOCIETY</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span>
+      </button>
+
+      <nav class="navigation" id="main-navigation" aria-label="Main navigation">
+        <a href="#principles">Our principles</a>
+        <a href="#perspective">Perspective</a>
+        <a class="nav-cta" href="#discover">Discover more <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span></span> A meeting place for curious minds</p>
+          <h1>Look closer.<br><span>See further.</span></h1>
+          <p class="hero-copy">A brighter future begins with a clearer view of the world—and the courage to imagine what it could become.</p>
+          <a class="button button-gold" href="#principles">Explore our principles <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="hero-art" aria-label="An original illustration of a golden eye above a geometric pyramid">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <svg class="emblem" viewBox="0 0 440 500" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#fff0bd" />
+                <stop offset=".48" stop-color="#d9ab60" />
+                <stop offset="1" stop-color="#8c5b34" />
+              </linearGradient>
+              <radialGradient id="glow">
+                <stop offset="0" stop-color="#e3b864" stop-opacity=".3" />
+                <stop offset="1" stop-color="#e3b864" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+            <circle cx="220" cy="205" r="174" fill="url(#glow)" />
+            <path class="emblem-line" d="M220 53 378 327H62L220 53Z" />
+            <path class="emblem-line fine-line" d="M220 95 338 302H102L220 95Z" />
+            <path class="emblem-line fine-line" d="m62 327 158-232 158 232M102 302l118-207 118 207" />
+            <path class="eye-shape" d="M147 190q73-72 146 0-73 72-146 0Z" />
+            <circle class="eye-pupil" cx="220" cy="190" r="18" />
+            <circle class="eye-glint" cx="226" cy="184" r="5" />
+            <path class="emblem-line fine-line" d="M220 327v76m-41 0h82m-64 14h46" />
+            <circle class="star star-one" cx="85" cy="126" r="2" />
+            <circle class="star star-two" cx="347" cy="117" r="2.5" />
+            <circle class="star star-three" cx="354" cy="374" r="1.5" />
+            <circle class="star star-four" cx="91" cy="367" r="1.5" />
+          </svg>
+          <p class="art-caption"><span>01 / 04</span> A symbol of attention</p>
+        </div>
+
+        <a class="scroll-cue" href="#intro"><span></span> Scroll to explore</a>
+      </section>
+
+      <section class="intro section-wrap" id="intro">
+        <p class="eyebrow eyebrow-dark">A different kind of perspective</p>
+        <h2>Knowledge opens doors.<br><span>Curiosity shows us where to go.</span></h2>
+        <p class="section-copy">The Lantern Society is an independent idea: a reminder that thoughtful questions, generous collaboration, and a little wonder can help us shape a more hopeful world together.</p>
+      </section>
+
+      <section class="principles section-wrap" id="principles">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark">The foundations</p>
+            <h2>Four ways to <span>look forward.</span></h2>
+          </div>
+          <p>Not rules to follow, but ideas to return to—and make your own.</p>
+        </div>
+        <div class="principle-grid">
+          <article class="principle-card">
+            <span class="card-number">01</span>
+            <div class="principle-icon icon-horizon" aria-hidden="true"><span></span></div>
+            <h3>Possibility</h3>
+            <p>Imagine more than what is. Progress begins when we make room for a better answer.</p>
+          </article>
+          <article class="principle-card">
+            <span class="card-number">02</span>
+            <div class="principle-icon icon-lantern" aria-hidden="true"><span></span></div>
+            <h3>Clarity</h3>
+            <p>Seek understanding with an open mind. A little light can change the whole landscape.</p>
+          </article>
+          <article class="principle-card">
+            <span class="card-number">03</span>
+            <div class="principle-icon icon-growth" aria-hidden="true"><span></span></div>
+            <h3>Growth</h3>
+            <p>Stay a student of the world. Small acts of learning have a way of adding up.</p>
+          </article>
+          <article class="principle-card">
+            <span class="card-number">04</span>
+            <div class="principle-icon icon-connection" aria-hidden="true"><span></span></div>
+            <h3>Togetherness</h3>
+            <p>Our paths cross for a reason. The future is something we create in common.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="perspective" id="perspective">
+        <div class="perspective-art" aria-hidden="true">
+          <div class="sun"></div>
+          <div class="mountain mountain-back"></div>
+          <div class="mountain mountain-front"></div>
+          <div class="perspective-lines"></div>
+        </div>
+        <div class="perspective-content">
+          <p class="eyebrow">A note on perspective</p>
+          <h2>The way ahead<br>starts <span>within.</span></h2>
+          <p>We learn from where we have been, but our next chapter is still unwritten. Bring your questions, your experience, and your own point of view. There is always more to discover.</p>
+          <a class="text-link" href="#discover">Keep exploring <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="discover section-wrap" id="discover">
+        <p class="eyebrow eyebrow-dark">The first step</p>
+        <h2>Wonder where an idea<br><span>could take you?</span></h2>
+        <p class="section-copy">Take a moment. Look around. Start with a question that matters to you.</p>
+        <a class="button button-dark" href="#home">Return to the beginning <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M24 3 44 40H4L24 3Z" /><circle cx="24" cy="23" r="8" />
+          <path d="m24 17 5 12h-10l5-12Z" /><circle class="brand-dot" cx="24" cy="23" r="2" />
+        </svg>
+        <span>THE LANTERN <span class="brand-light">SOCIETY</span></span>
+      </a>
+      <p>An original concept, built around curiosity and shared possibility.</p>
+      <span class="copyright">© <span id="year"></span> THE LANTERN SOCIETY</span>
+    </footer>
+  </body>
+</html>
